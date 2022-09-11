@@ -8,4 +8,4 @@ for (int i = 0; i < m; i++)
     int a = Convert.ToInt32(Console.ReadLine());
     if (a > 0) sum += 1;
 }
-Console.WriteLine(sum);
+Console.WriteLine("Введено чисел больше 0: {0}", sum);
